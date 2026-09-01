@@ -1,0 +1,92 @@
+{
+  "allWithin": true,
+  "maxRelativeDiff": 0.0000250236682195243,
+  "aAvgClose": true,
+  "bClose": true,
+  "rows": [
+    {
+      "n": 1,
+      "A_real_total": 47957,
+      "A_syn_total": 47957,
+      "A_real_avg": 47957,
+      "A_diff_gas": 0,
+      "A_rel": 0,
+      "A_within_tol": true,
+      "B_real_register": 48373,
+      "B_syn_register": 48373,
+      "B_diff_gas": 0,
+      "B_within_tol": true,
+      "B_proofDepth": 0
+    },
+    {
+      "n": 10,
+      "A_real_total": 479558,
+      "A_syn_total": 479546,
+      "A_real_avg": 47955,
+      "A_diff_gas": 12,
+      "A_rel": 0.0000250236682195243,
+      "A_within_tol": true,
+      "B_real_register": 48373,
+      "B_syn_register": 48373,
+      "B_diff_gas": 0,
+      "B_within_tol": true,
+      "B_proofDepth": 4
+    },
+    {
+      "n": 50,
+      "A_real_total": 2397778,
+      "A_syn_total": 2397742,
+      "A_real_avg": 47955,
+      "A_diff_gas": 36,
+      "A_rel": 0.000015014125790014105,
+      "A_within_tol": true,
+      "B_real_register": 48373,
+      "B_syn_register": 48373,
+      "B_diff_gas": 0,
+      "B_within_tol": true,
+      "B_proofDepth": 6
+    },
+    {
+      "n": 100,
+      "A_real_total": 4795556,
+      "A_syn_total": 4795568,
+      "A_real_avg": 47955,
+      "A_diff_gas": -12,
+      "A_rel": 0.00000250231046666422,
+      "A_within_tol": true,
+      "B_real_register": 48373,
+      "B_syn_register": 48373,
+      "B_diff_gas": 0,
+      "B_within_tol": true,
+      "B_proofDepth": 7
+    },
+    {
+      "n": 500,
+      "A_real_total": 23977888,
+      "A_syn_total": 23977660,
+      "A_real_avg": 47955,
+      "A_diff_gas": 228,
+      "A_rel": 0.000009508851155617355,
+      "A_within_tol": true,
+      "B_real_register": 48385,
+      "B_syn_register": 48385,
+      "B_diff_gas": 0,
+      "B_within_tol": true,
+      "B_proofDepth": 9
+    },
+    {
+      "n": 1000,
+      "A_real_total": 47955668,
+      "A_syn_total": 47955284,
+      "A_real_avg": 47955,
+      "A_diff_gas": 384,
+      "A_rel": 0.000008007459615920531,
+      "A_within_tol": true,
+      "B_real_register": 48385,
+      "B_syn_register": 48385,
+      "B_diff_gas": 0,
+      "B_within_tol": true,
+      "B_proofDepth": 10
+    }
+  ]
+}

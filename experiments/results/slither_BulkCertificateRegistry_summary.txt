@@ -1,0 +1,21 @@
+'solc --version' running
+'solc contracts/BulkCertificateRegistry.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --optimize --optimize-runs 200 --allow-paths .,/Users/tur0001m/personal/thesis/2026-05-26/handover/experiments/contracts' running
+INFO:Printers:
+Compiled with solc
+Total number of contracts in source files: 1
+Source lines of code (SLOC) in source files: 48
+Number of  assembly lines: 0
+Number of optimization issues: 0
+Number of informational issues: 0
+Number of low issues: 0
+Number of medium issues: 0
+Number of high issues: 0
+
+
++---------------------+-----------+-----+----------+------------+--------+
+| Name                | # functio | ERC | ERC20 in | Complex co | Featur |
++---------------------+-----------+-----+----------+------------+--------+
+| BulkCertificateRegi | 5         |     |          | No         |        |
+| stry                |           |     |          |            |        |
++---------------------+-----------+-----+----------+------------+--------+
+INFO:Slither:contracts/BulkCertificateRegistry.sol analyzed (1 contracts)

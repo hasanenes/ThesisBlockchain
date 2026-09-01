@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# hardhat build output
+experiments/cache/
+experiments/artifacts/
+experiments/typechain-types/
+
+# secrets — never commit
+.env
+*.env
+!.env.example
+
+# generated datasets (regenerate with `npm run dataset`)
+experiments/dataset/
+
+# macOS
+.DS_Store

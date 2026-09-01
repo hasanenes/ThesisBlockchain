@@ -1,0 +1,31 @@
+{
+  "name": "thesis-experiments",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "benchmark": "hardhat run scripts/benchmark.js",
+    "benchmark:extended": "hardhat run scripts/extended_benchmark.js",
+    "benchmark:offchain": "node scripts/offchain_benchmark.js",
+    "benchmark:canonical": "node scripts/canonicalization_benchmark.js",
+    "benchmark:realistic": "hardhat run scripts/realistic_benchmark.js",
+    "benchmark:baseline": "node scripts/baseline_comparison.js",
+    "benchmark:consuming": "hardhat run scripts/consuming_contract_benchmark.js",
+    "dataset": "node scripts/generate_dataset.js",
+    "cost:sensitivity": "node scripts/cost_sensitivity.js",
+    "demo": "hardhat run scripts/demo.js",
+    "deploy:sepolia": "hardhat run scripts/sepolia_deployment.js --network sepolia",
+    "test": "hardhat test",
+    "test:security": "hardhat test test/merkle_security.test.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.4.0",
+    "pdf-lib": "^1.17.1"
+  }
+}

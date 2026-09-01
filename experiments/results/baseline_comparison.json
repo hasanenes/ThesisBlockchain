@@ -1,0 +1,65 @@
+{
+  "N": 1000,
+  "gasPriceGwei": 20,
+  "ethEur": 2500,
+  "signedDb": {
+    "method": "Centralized signed-hash DB (Ed25519)",
+    "signMsPerCert": 0.02965775,
+    "verifyMsPerCert": 0.084850792,
+    "perCertStorageBytes": 96,
+    "perCertEur": 0,
+    "allValid": true
+  },
+  "ctLog": {
+    "method": "CT-style Merkle transparency log (RFC 6962)",
+    "treeBuildMs": 6.054292,
+    "proofDepth": 10,
+    "inclusionProofBytes": 320,
+    "sthSignatureBytes": 64,
+    "perCertEur": 0
+  },
+  "archA": {
+    "method": "Architecture A (blockchain, one hash/cert)",
+    "gasPerCert": 47955,
+    "perCertEur": 2.3977500000000003
+  },
+  "archB": {
+    "method": "Architecture B (blockchain, Merkle root/batch)",
+    "gasPerCertEffective": 48.385,
+    "perCertEur": 0.00241925
+  },
+  "matrix": [
+    {
+      "approach": "Signed-hash DB",
+      "trustedParties": "issuer key + DB operator",
+      "publicAudit": "only if DB is published",
+      "censorshipResistant": "no",
+      "singlePointOfFailure": "yes (operator/DB)",
+      "holderKeepsProof": "no"
+    },
+    {
+      "approach": "CT-style Merkle log",
+      "trustedParties": "log operator (not to equivocate)",
+      "publicAudit": "yes (monitors/gossip)",
+      "censorshipResistant": "partial (detectable)",
+      "singlePointOfFailure": "log operator availability",
+      "holderKeepsProof": "yes (inclusion proof)"
+    },
+    {
+      "approach": "Architecture A (chain)",
+      "trustedParties": "issuer key + L1 validators",
+      "publicAudit": "yes",
+      "censorshipResistant": "yes",
+      "singlePointOfFailure": "no (decentralized L1)",
+      "holderKeepsProof": "no"
+    },
+    {
+      "approach": "Architecture B (chain)",
+      "trustedParties": "issuer key + L1 validators",
+      "publicAudit": "yes",
+      "censorshipResistant": "yes",
+      "singlePointOfFailure": "no (decentralized L1)",
+      "holderKeepsProof": "yes (Merkle proof)"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "certificate": {
+    "certificateId": "RTU-2026-CS-000042",
+    "studentName": "Hasan Enes Turan",
+    "studentId": "211ADB038",
+    "program": "Computer Systems",
+    "degreeLevel": "Bachelor",
+    "institution": "Riga Technical University",
+    "issueDate": "2026-03-15",
+    "grade": "A (excellent, 9)"
+  },
+  "rawRenderings": [
+    {
+      "exporter": "LibreOffice",
+      "bytes": 1390,
+      "rawSha256": "bb388ea7b674a076c09729b99efc07aae5a347fa815ebd691c08ea05120b4323"
+    },
+    {
+      "exporter": "Microsoft Word",
+      "bytes": 1394,
+      "rawSha256": "7faab5364f94aa9bd88584dac50137311daf7ca96048de0d63d5e0504e3436a9"
+    },
+    {
+      "exporter": "Chrome print-to-PDF",
+      "bytes": 1397,
+      "rawSha256": "b4d2f54a9673cc849f7dd07c2e8d13ce50634f2c703155f02aa02208b2a17cdb"
+    },
+    {
+      "exporter": "re-save (same tool, later)",
+      "bytes": 1383,
+      "rawSha256": "2612c4a109c392f4c38efe5971f91b51e1ab5e798404e18a2abafb5f51550c1e"
+    }
+  ],
+  "canonicalBaseHash": "4b18cdbfa27e9f9641fe04e181142e6d025406cb4e8c3c8df2fcf4a16ae8627f",
+  "equivalentForms": [
+    {
+      "form": "baseline",
+      "canonicalSha256": "4b18cdbfa27e9f9641fe04e181142e6d025406cb4e8c3c8df2fcf4a16ae8627f",
+      "matchesBase": true
+    },
+    {
+      "form": "different key order",
+      "canonicalSha256": "4b18cdbfa27e9f9641fe04e181142e6d025406cb4e8c3c8df2fcf4a16ae8627f",
+      "matchesBase": true
+    },
+    {
+      "form": "messy whitespace",
+      "canonicalSha256": "4b18cdbfa27e9f9641fe04e181142e6d025406cb4e8c3c8df2fcf4a16ae8627f",
+      "matchesBase": true
+    }
+  ],
+  "tamperForms": [
+    {
+      "tamper": "grade changed A->B",
+      "canonicalSha256": "514c567ccb952242b93541c89c075e076d9e8872a612e4e66eead43914640eb9",
+      "detected": true
+    },
+    {
+      "tamper": "name changed",
+      "canonicalSha256": "2cb76e7cddbb0cda174575ce321786656b2effff05e4dfc28c95de02c9af21b9",
+      "detected": true
+    },
+    {
+      "tamper": "date changed",
+      "canonicalSha256": "ec2033147cf251d3efd021c077d46c70a228e6e3983c988977480bbf2b547a68",
+      "detected": true
+    }
+  ],
+  "salted": {
+    "salt": "f3a1c9e2b7d40516",
+    "saltedHash": "da8b375d261fb9a57056622f28668120c8e32af8c9619a96408d234d22753943",
+    "unsaltedHash": "4b18cdbfa27e9f9641fe04e181142e6d025406cb4e8c3c8df2fcf4a16ae8627f",
+    "unlinkable": true
+  },
+  "verdict": {
+    "rawByteHashingBrittle": true,
+    "canonicalStableAcrossRenderings": true,
+    "tamperStillDetected": true,
+    "saltMakesHashUnlinkable": true,
+    "saltKeepsHashSize": true
+  }
+}

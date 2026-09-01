@@ -1,0 +1,28 @@
+{
+  "batchSize": 1000,
+  "proofDepth": 10,
+  "registration": {
+    "A": 47957,
+    "B": 48385,
+    "BPerCertificate": 48.385
+  },
+  "consumingContract": {
+    "claimA": 49543,
+    "claimB": 59327,
+    "claimAWithoutVerification": 44229,
+    "claimBWithoutVerification": 50296,
+    "internalVerificationA": 5314,
+    "internalVerificationB": 9031,
+    "differenceInternal": 3717,
+    "differenceTotal": 9784
+  },
+  "standalone": {
+    "A": 24015,
+    "B": 37220
+  },
+  "breakEven": {
+    "headStart": 47908.615,
+    "lossPerVerification": 9784,
+    "k": 4.896628679476696
+  }
+}

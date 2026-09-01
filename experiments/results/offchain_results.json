@@ -1,0 +1,74 @@
+[
+  {
+    "batchSize": 1,
+    "rounds": 5,
+    "avgHashMs": 0.2606932,
+    "avgTreeMs": 0.17950259999999998,
+    "avgProofMs": 0.0679758,
+    "proofDepth": 0,
+    "proofBytes": 0
+  },
+  {
+    "batchSize": 10,
+    "rounds": 5,
+    "avgHashMs": 0.1725552,
+    "avgTreeMs": 1.3698350000000001,
+    "avgProofMs": 0.18221020000000004,
+    "proofDepth": 4,
+    "proofBytes": 128
+  },
+  {
+    "batchSize": 50,
+    "rounds": 5,
+    "avgHashMs": 0.44954599999999995,
+    "avgTreeMs": 2.0927994,
+    "avgProofMs": 0.207536,
+    "proofDepth": 6,
+    "proofBytes": 192
+  },
+  {
+    "batchSize": 100,
+    "rounds": 5,
+    "avgHashMs": 2.6255544,
+    "avgTreeMs": 4.5576094,
+    "avgProofMs": 0.1549698,
+    "proofDepth": 7,
+    "proofBytes": 224
+  },
+  {
+    "batchSize": 500,
+    "rounds": 5,
+    "avgHashMs": 5.330695,
+    "avgTreeMs": 15.3939212,
+    "avgProofMs": 0.3681906,
+    "proofDepth": 9,
+    "proofBytes": 288
+  },
+  {
+    "batchSize": 1000,
+    "rounds": 5,
+    "avgHashMs": 5.337901400000001,
+    "avgTreeMs": 20.1925404,
+    "avgProofMs": 0.24347119999999997,
+    "proofDepth": 10,
+    "proofBytes": 320
+  },
+  {
+    "batchSize": 5000,
+    "rounds": 5,
+    "avgHashMs": 25.944326999999998,
+    "avgTreeMs": 69.7578898,
+    "avgProofMs": 0.7629962,
+    "proofDepth": 13,
+    "proofBytes": 416
+  },
+  {
+    "batchSize": 10000,
+    "rounds": 5,
+    "avgHashMs": 48.931181800000005,
+    "avgTreeMs": 135.985455,
+    "avgProofMs": 1.2957556000000001,
+    "proofDepth": 14,
+    "proofBytes": 448
+  }
+]

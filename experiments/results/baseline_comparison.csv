@@ -1,0 +1,5 @@
+approach,perCertEur,perCertStorageBytes,proofBytes,trustedParties,censorshipResistant,singlePointOfFailure
+Signed-hash DB,0,96,0,issuer+DB operator,no,yes
+CT-style Merkle log,0,32,320,log operator,partial,log availability
+Architecture A,2.3978,32,0,issuer+validators,yes,no
+Architecture B,0.002419,32,320,issuer+validators,yes,no

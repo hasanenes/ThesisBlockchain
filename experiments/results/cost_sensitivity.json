@@ -1,0 +1,542 @@
+[
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 0.1,
+    "ethEur": 1500,
+    "totalEur": 7.193330400000002,
+    "eurPerCertificate": 0.007193330400000001
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 0.1,
+    "ethEur": 2200,
+    "totalEur": 10.550217920000003,
+    "eurPerCertificate": 0.010550217920000004
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 0.1,
+    "ethEur": 4000,
+    "totalEur": 19.182214400000007,
+    "eurPerCertificate": 0.019182214400000005
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 0.5,
+    "ethEur": 1500,
+    "totalEur": 35.966652,
+    "eurPerCertificate": 0.035966652
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 0.5,
+    "ethEur": 2200,
+    "totalEur": 52.7510896,
+    "eurPerCertificate": 0.0527510896
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 0.5,
+    "ethEur": 4000,
+    "totalEur": 95.911072,
+    "eurPerCertificate": 0.095911072
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 5,
+    "ethEur": 1500,
+    "totalEur": 359.66652000000005,
+    "eurPerCertificate": 0.35966652000000005
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 5,
+    "ethEur": 2200,
+    "totalEur": 527.510896,
+    "eurPerCertificate": 0.527510896
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 5,
+    "ethEur": 4000,
+    "totalEur": 959.1107200000001,
+    "eurPerCertificate": 0.9591107200000001
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 50,
+    "ethEur": 1500,
+    "totalEur": 3596.6652,
+    "eurPerCertificate": 3.5966652
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 50,
+    "ethEur": 2200,
+    "totalEur": 5275.10896,
+    "eurPerCertificate": 5.27510896
+  },
+  {
+    "scenario": "A_1000_single_hash",
+    "certificates": 1000,
+    "gas": 47955536,
+    "gasPriceGwei": 50,
+    "ethEur": 4000,
+    "totalEur": 9591.1072,
+    "eurPerCertificate": 9.5911072
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 0.1,
+    "ethEur": 1500,
+    "totalEur": 0.00725775,
+    "eurPerCertificate": 0.00000725775
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 0.1,
+    "ethEur": 2200,
+    "totalEur": 0.0106447,
+    "eurPerCertificate": 0.0000106447
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 0.1,
+    "ethEur": 4000,
+    "totalEur": 0.019354,
+    "eurPerCertificate": 0.000019353999999999998
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 0.5,
+    "ethEur": 1500,
+    "totalEur": 0.03628875,
+    "eurPerCertificate": 0.00003628875
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 0.5,
+    "ethEur": 2200,
+    "totalEur": 0.05322350000000001,
+    "eurPerCertificate": 0.00005322350000000001
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 0.5,
+    "ethEur": 4000,
+    "totalEur": 0.09677000000000001,
+    "eurPerCertificate": 0.00009677000000000001
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 5,
+    "ethEur": 1500,
+    "totalEur": 0.36288750000000003,
+    "eurPerCertificate": 0.0003628875
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 5,
+    "ethEur": 2200,
+    "totalEur": 0.532235,
+    "eurPerCertificate": 0.000532235
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 5,
+    "ethEur": 4000,
+    "totalEur": 0.9677,
+    "eurPerCertificate": 0.0009677
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 50,
+    "ethEur": 1500,
+    "totalEur": 3.628875,
+    "eurPerCertificate": 0.0036288749999999997
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 50,
+    "ethEur": 2200,
+    "totalEur": 5.32235,
+    "eurPerCertificate": 0.00532235
+  },
+  {
+    "scenario": "B_1000_merkle_batch",
+    "certificates": 1000,
+    "gas": 48385,
+    "gasPriceGwei": 50,
+    "ethEur": 4000,
+    "totalEur": 9.677,
+    "eurPerCertificate": 0.009677
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 0.1,
+    "ethEur": 1500,
+    "totalEur": 1.8454902000000002,
+    "eurPerCertificate": 0.0036909804000000005
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 0.1,
+    "ethEur": 2200,
+    "totalEur": 2.7067189600000003,
+    "eurPerCertificate": 0.005413437920000001
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 0.1,
+    "ethEur": 4000,
+    "totalEur": 4.921307200000001,
+    "eurPerCertificate": 0.009842614400000001
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 0.5,
+    "ethEur": 1500,
+    "totalEur": 9.227451,
+    "eurPerCertificate": 0.018454902000000002
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 0.5,
+    "ethEur": 2200,
+    "totalEur": 13.533594800000001,
+    "eurPerCertificate": 0.027067189600000003
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 0.5,
+    "ethEur": 4000,
+    "totalEur": 24.606536000000002,
+    "eurPerCertificate": 0.049213072000000004
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 5,
+    "ethEur": 1500,
+    "totalEur": 92.27451,
+    "eurPerCertificate": 0.18454902
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 5,
+    "ethEur": 2200,
+    "totalEur": 135.335948,
+    "eurPerCertificate": 0.270671896
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 5,
+    "ethEur": 4000,
+    "totalEur": 246.06536,
+    "eurPerCertificate": 0.49213072
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 50,
+    "ethEur": 1500,
+    "totalEur": 922.7451000000001,
+    "eurPerCertificate": 1.8454902000000002
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 50,
+    "ethEur": 2200,
+    "totalEur": 1353.35948,
+    "eurPerCertificate": 2.7067189600000003
+  },
+  {
+    "scenario": "C_500_bulk_array",
+    "certificates": 500,
+    "gas": 12303268,
+    "gasPriceGwei": 50,
+    "ethEur": 4000,
+    "totalEur": 2460.6536,
+    "eurPerCertificate": 4.9213072
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 0.1,
+    "ethEur": 1500,
+    "totalEur": 3.596667,
+    "eurPerCertificate": 0.007193334
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 0.1,
+    "ethEur": 2200,
+    "totalEur": 5.275111600000001,
+    "eurPerCertificate": 0.010550223200000002
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 0.1,
+    "ethEur": 4000,
+    "totalEur": 9.591112,
+    "eurPerCertificate": 0.019182224
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 0.5,
+    "ethEur": 1500,
+    "totalEur": 17.983335,
+    "eurPerCertificate": 0.03596667
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 0.5,
+    "ethEur": 2200,
+    "totalEur": 26.375558,
+    "eurPerCertificate": 0.052751116
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 0.5,
+    "ethEur": 4000,
+    "totalEur": 47.95556,
+    "eurPerCertificate": 0.09591112
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 5,
+    "ethEur": 1500,
+    "totalEur": 179.83335,
+    "eurPerCertificate": 0.3596667
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 5,
+    "ethEur": 2200,
+    "totalEur": 263.75558,
+    "eurPerCertificate": 0.52751116
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 5,
+    "ethEur": 4000,
+    "totalEur": 479.5556,
+    "eurPerCertificate": 0.9591112
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 50,
+    "ethEur": 1500,
+    "totalEur": 1798.3335000000002,
+    "eurPerCertificate": 3.5966670000000005
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 50,
+    "ethEur": 2200,
+    "totalEur": 2637.5558,
+    "eurPerCertificate": 5.2751116
+  },
+  {
+    "scenario": "A_500_single_hash",
+    "certificates": 500,
+    "gas": 23977780,
+    "gasPriceGwei": 50,
+    "ethEur": 4000,
+    "totalEur": 4795.5560000000005,
+    "eurPerCertificate": 9.591112
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 0.1,
+    "ethEur": 1500,
+    "totalEur": 0.00725775,
+    "eurPerCertificate": 0.0000145155
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 0.1,
+    "ethEur": 2200,
+    "totalEur": 0.0106447,
+    "eurPerCertificate": 0.0000212894
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 0.1,
+    "ethEur": 4000,
+    "totalEur": 0.019354,
+    "eurPerCertificate": 0.000038707999999999996
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 0.5,
+    "ethEur": 1500,
+    "totalEur": 0.03628875,
+    "eurPerCertificate": 0.0000725775
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 0.5,
+    "ethEur": 2200,
+    "totalEur": 0.05322350000000001,
+    "eurPerCertificate": 0.00010644700000000002
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 0.5,
+    "ethEur": 4000,
+    "totalEur": 0.09677000000000001,
+    "eurPerCertificate": 0.00019354000000000002
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 5,
+    "ethEur": 1500,
+    "totalEur": 0.36288750000000003,
+    "eurPerCertificate": 0.000725775
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 5,
+    "ethEur": 2200,
+    "totalEur": 0.532235,
+    "eurPerCertificate": 0.00106447
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 5,
+    "ethEur": 4000,
+    "totalEur": 0.9677,
+    "eurPerCertificate": 0.0019354
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 50,
+    "ethEur": 1500,
+    "totalEur": 3.628875,
+    "eurPerCertificate": 0.0072577499999999994
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 50,
+    "ethEur": 2200,
+    "totalEur": 5.32235,
+    "eurPerCertificate": 0.0106447
+  },
+  {
+    "scenario": "B_500_merkle_batch",
+    "certificates": 500,
+    "gas": 48385,
+    "gasPriceGwei": 50,
+    "ethEur": 4000,
+    "totalEur": 9.677,
+    "eurPerCertificate": 0.019354
+  }
+]

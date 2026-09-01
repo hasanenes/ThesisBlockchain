@@ -1,0 +1,128 @@
+[
+  {
+    "arch": "A",
+    "batchSize": 1,
+    "deployGas": 286323,
+    "registerTotalGas": 47957,
+    "registerFirstGas": 47957,
+    "registerAvgGas": 47957,
+    "verifyGas": 24015,
+    "verifyResult": true
+  },
+  {
+    "arch": "A",
+    "batchSize": 10,
+    "deployGas": 286323,
+    "registerTotalGas": 479558,
+    "registerFirstGas": 47957,
+    "registerAvgGas": 47955,
+    "verifyGas": 24015,
+    "verifyResult": true
+  },
+  {
+    "arch": "A",
+    "batchSize": 50,
+    "deployGas": 286323,
+    "registerTotalGas": 2397838,
+    "registerFirstGas": 47957,
+    "registerAvgGas": 47956,
+    "verifyGas": 24015,
+    "verifyResult": true
+  },
+  {
+    "arch": "A",
+    "batchSize": 100,
+    "deployGas": 286323,
+    "registerTotalGas": 4795508,
+    "registerFirstGas": 47957,
+    "registerAvgGas": 47955,
+    "verifyGas": 24015,
+    "verifyResult": true
+  },
+  {
+    "arch": "A",
+    "batchSize": 500,
+    "deployGas": 286323,
+    "registerTotalGas": 23977828,
+    "registerFirstGas": 47957,
+    "registerAvgGas": 47955,
+    "verifyGas": 24015,
+    "verifyResult": true
+  },
+  {
+    "arch": "A",
+    "batchSize": 1000,
+    "deployGas": 286323,
+    "registerTotalGas": 47955560,
+    "registerFirstGas": 47957,
+    "registerAvgGas": 47955,
+    "verifyGas": 24015,
+    "verifyResult": true
+  },
+  {
+    "arch": "B",
+    "batchSize": 1,
+    "deployGas": 379585,
+    "registerTotalGas": 48373,
+    "registerFirstGas": 48373,
+    "registerAvgGas": 48373,
+    "verifyGas": 25193,
+    "proofDepth": 0,
+    "verifyResult": true
+  },
+  {
+    "arch": "B",
+    "batchSize": 10,
+    "deployGas": 379585,
+    "registerTotalGas": 48373,
+    "registerFirstGas": 48373,
+    "registerAvgGas": 4837.3,
+    "verifyGas": 29510,
+    "proofDepth": 4,
+    "verifyResult": true
+  },
+  {
+    "arch": "B",
+    "batchSize": 50,
+    "deployGas": 379585,
+    "registerTotalGas": 48373,
+    "registerFirstGas": 48373,
+    "registerAvgGas": 967.46,
+    "verifyGas": 32040,
+    "proofDepth": 6,
+    "verifyResult": true
+  },
+  {
+    "arch": "B",
+    "batchSize": 100,
+    "deployGas": 379585,
+    "registerTotalGas": 48373,
+    "registerFirstGas": 48373,
+    "registerAvgGas": 483.73,
+    "verifyGas": 33320,
+    "proofDepth": 7,
+    "verifyResult": true
+  },
+  {
+    "arch": "B",
+    "batchSize": 500,
+    "deployGas": 379585,
+    "registerTotalGas": 48373,
+    "registerFirstGas": 48373,
+    "registerAvgGas": 96.746,
+    "verifyGas": 35910,
+    "proofDepth": 9,
+    "verifyResult": true
+  },
+  {
+    "arch": "B",
+    "batchSize": 1000,
+    "deployGas": 379585,
+    "registerTotalGas": 48385,
+    "registerFirstGas": 48385,
+    "registerAvgGas": 48.385,
+    "verifyGas": 37190,
+    "proofDepth": 10,
+    "verifyResult": true
+  }
+]
