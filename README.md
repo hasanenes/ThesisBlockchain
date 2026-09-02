@@ -114,10 +114,10 @@ data for the thesis tables and figures, and the gas values should match the thes
 Full step-by-step instructions, including the Slither security analysis, are in
 [`experiments/HOW_TO_RUN.md`](experiments/HOW_TO_RUN.md).
 
-### Deploying to Sepolia (optional)
+### Deploying to Sepolia 
 
 ```bash
-cp experiments/.env.example experiments/.env   # then fill in your own values
+cp experiments/.env.example experiments/.env  
 npm run deploy:sepolia
 ```
 
