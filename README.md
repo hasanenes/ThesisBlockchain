@@ -90,7 +90,7 @@ Demo and deployment:
 ## Reproducing the measurements
 
 ```bash
-git clone https://github.com/hasanenes/Blockchainthesis.git
+git clone https://github.com/hasanenes/ThesisBlockchain.git
 cd Blockchainthesis/experiments
 npm install
 npm run compile
