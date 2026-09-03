@@ -1,7 +1,8 @@
 # Blockchain-Based Certificate Verification for Education
 
 Solidity contracts, experiment scripts, measured results, and figures for the bachelor
-thesis *"Blockchain-Based Certificate Verification for Education"*, Riga Technical
+thesis *"Quantifying Verification Cost Limits for Academic Certificate Registries on Ethereum<img width="468" height="55" alt="image" src="https://github.com/user-attachments/assets/9cf528a1-ba68-47ae-b136-cc9d9683d1ee" />
+"*, Riga Technical
 University, 2026. Author: Hasan Enes Turan.
 
 The thesis compares three smart contract architectures for registering and verifying
@@ -110,9 +111,6 @@ npm run benchmark:realistic
 Each script finishes within a few minutes on an ordinary laptop. Output is printed to the
 terminal and written to `experiments/results/` as CSV and JSON. Those files are the source
 data for the thesis tables and figures, and the gas values should match the thesis exactly.
-
-Full step-by-step instructions, including the Slither security analysis, are in
-[`experiments/HOW_TO_RUN.md`](experiments/HOW_TO_RUN.md).
 
 ### Deploying to Sepolia 
 
