@@ -1,7 +1,7 @@
 # Blockchain-Based Certificate Verification for Education
 
 Solidity contracts, experiment scripts, measured results, and figures for the bachelor
-thesis *"Quantifying Verification Cost Limits for Academic Certificate Registries on Ethereum<img width="468" height="55" alt="image" src="https://github.com/user-attachments/assets/9cf528a1-ba68-47ae-b136-cc9d9683d1ee" />
+thesis *"Quantifying Verification Cost Limits for Academic Certificate Registries on Ethereum
 "*, Riga Technical
 University, 2026. Author: Hasan Enes Turan.
 
