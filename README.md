@@ -1,4 +1,5 @@
-# Blockchain-Based Certificate Verification for Education
+# Quantifying Verification Cost Limits for Academic Certificate Registries on Ethereum
+
 
 Solidity contracts, experiment scripts, measured results, and figures for the bachelor
 thesis *"Quantifying Verification Cost Limits for Academic Certificate Registries on Ethereum
