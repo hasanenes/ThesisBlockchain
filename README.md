@@ -91,7 +91,7 @@ Demo and deployment:
 
 ```bash
 git clone https://github.com/hasanenes/ThesisBlockchain.git
-cd Blockchainthesis/experiments
+cd ThesisBlockchain/experiments
 npm install
 npm run compile
 npm test
