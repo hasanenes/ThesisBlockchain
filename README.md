@@ -113,14 +113,82 @@ Each script finishes within a few minutes on an ordinary laptop. Output is print
 terminal and written to `experiments/results/` as CSV and JSON. Those files are the source
 data for the thesis tables and figures, and the gas values should match the thesis exactly.
 
-### Deploying to Sepolia 
 
+
+
+### Verification cost
+ 
 ```bash
-cp experiments/.env.example experiments/.env  
-npm run deploy:sepolia
+npm run benchmark:consuming
+npm run benchmark:sweep
+```
+ 
+The first measures verification inside a consuming smart contract at n = 1000. The second
+repeats the measurement at n = 10, 100, 500 and 1000 and reports the calldata and
+computation components, the break-even, and an implementation-independent upper bound.
+ 
+ ### Security
+ 
+```bash
+npm run security:overhead
+```
+ 
+Gas overhead of domain-separated proof verification against the unhardened contract.
+ 
+Static analysis requires Slither, which npm does not install:
+   
+
+### Off-chain performance and data handling
+ 
+```bash
+npm run benchmark:offchain
+npm run benchmark:canonical
+npm run dataset
+npm run benchmark:realistic
+```
+ 
+Merkle tree construction and proof generation timings, canonical hashing under RFC 8785,
+generation of a synthetic certificate dataset, and the same measurements repeated over
+generated certificate documents. `npm run dataset` must run before `benchmark:realistic`.
+ 
+### Security
+ 
+```bash
+npm run security:overhead
 ```
 
-Use a throwaway test account. `.env` is gitignored and must never be committed.
+### Security
+ 
+```bash
+npm run security:overhead
+```
+ 
+Gas overhead of domain-separated proof verification against the unhardened contract.
+ 
+Static analysis requires Slither, which npm does not install:
+ 
+```bash
+pip install slither-analyzer
+npm run analyze
+```
+ 
+The generated reports are committed under `results/`, so the analysis can be inspected
+without rerunning it.
+ 
+### Deploying to Sepolia
+ 
+Requires an RPC endpoint from a node provider and an account funded from a public test
+faucet. Use a throwaway account created for this purpose.
+ 
+```bash
+cp .env.example .env
+```
+ 
+Fill in `SEPOLIA_RPC_URL` and `PRIVATE_KEY`, then:
+ 
+```bash
+npm run deploy:sepolia
+```
 
 ### Reproducibility
 
