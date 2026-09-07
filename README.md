@@ -193,15 +193,3 @@ The gas figures are deterministic. A clean checkout of this repository regenerat
 identically to the committed files, which are the source of the tables in the thesis.
 Off-chain timings (`offchain_results.*`) are wall-clock measurements and will vary with
 hardware; the gas columns will not.
-
-## Main measured results
-
-- At n = 1000, Merkle batch registration reduces the registration cost per certificate by
-  a factor of about 991 compared to single hash registration. Verification moves to
-  O(log n) proof checks — the intended trade-off for a write-once, verify-many workload.
-- The bulk array control shows that cost scales with storage writes, not with transaction
-  count, and that single transaction bulk registration hits the per-transaction gas limit
-  at large batch sizes.
-- Domain separation closes CVE-2012-2459 at a measured cost of about 46 gas.
-- Canonical hashing removes the file-level brittleness of hashing raw PDFs: the same
-  certificate data yields the same hash regardless of serialisation.
