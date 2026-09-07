@@ -28,10 +28,6 @@ machine or network.
 | `experiments/contracts/` | The seven Solidity contracts under test. |
 | `experiments/scripts/` | Dataset generation, Merkle tooling, benchmarks, demo, deployment. |
 | `experiments/test/` | Hardhat correctness and Merkle security tests. |
-| `experiments/results/` | Raw measured output (CSV + JSON) and Slither reports — the source data for every table and figure in the thesis. |
-| `diagrams/` | Thesis figures (PNG) with their Mermaid sources and chart generation scripts. |
-| `docs/` | Architecture explanation, Chapter 5 text, related work, drafted sections. |
-| `defence/` | Defence preparation material: Q&A, presentation outline, live demo guide. |
 
 ## Contracts
 
